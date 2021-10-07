@@ -1,0 +1,349 @@
+body {
+	font-size: 16px;
+}
+
+
+/* ==========================================================================
+  	Genral
+   ========================================================================== */
+   
+.title-head {
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	padding: 20px 0 50px 0;
+}
+
+.title-head h2 {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.title-head p {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+/* ==========================================================================
+  	Navbar
+   ========================================================================== */
+
+.navbar-default {
+	background-color: #ffffff;
+	box-shadow: 0 0 3px #ccc;
+	font-weight: 500;
+	padding: 12px 0;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+ 	background-color: #fff;
+ 	color: #7cc576;
+}
+
+
+/* ==========================================================================
+  	Banner
+   ========================================================================== */
+
+.banner {
+	background: #000 url(../images/banner.jpg) no-repeat center top;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 70px;
+	min-height: 650px;
+	padding: 200px 0 100px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.banner h1 {
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.btn-success {
+	background: #7cc576;
+	font-size: 16px;
+}
+
+
+/* ==========================================================================
+  	About
+   ========================================================================== */
+
+#about {
+	padding: 50px 0;
+}
+
+#about-content h3 {
+	margin: 0 0 20px 0;
+}
+
+#about-content p {
+	letter-spacing: 1px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+
+/* ==========================================================================
+  	Services
+   ========================================================================== */
+
+#services {
+	background: #efefef url(../images/bg.jpg) no-repeat center top;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+}
+
+#services-content {
+	padding-top: 15px;
+}
+
+#services-content .fa {
+	color: #DDA924;
+}
+
+#services-content h3 {
+	color: #666;
+}
+
+#services-content p {
+	letter-spacing: 1px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+
+/* ==========================================================================
+  	Portfolio
+   ========================================================================== */
+
+#portfolio {
+	padding: 50px 0;
+}
+
+#portfolio .caption p {
+	letter-spacing: 1px;
+}
+
+
+/* ==========================================================================
+  	Team
+   ========================================================================== */
+
+#team {
+	background: #efefef url(../images/bg.jpg) no-repeat center top;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+}
+
+#team-content img {
+	margin: 25px auto 10px;
+}
+
+#team-content .img-thumbnail {
+	background-color: #efefef;
+} 
+
+#team-content h4,
+#team-content h5 {
+	color: #666;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#team-content p {
+	color: #333;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+#team-content .fa {
+	border: 1px solid #F5D144;
+	background: #ffffff;
+	border-radius: 100%;
+	color: #666;
+	font-size: 25px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 3px 15px 3px;
+	width: 50px;
+}
+
+#team-content .fa-facebook:hover {
+	background-color: #39599f;
+	color: #fff;
+}
+
+#team-content .fa-twitter:hover {
+	background-color: #2daae4;
+	color: #fff;
+}
+
+#team-content .fa-linkedin:hover {
+	background-color: #31516a;
+	color: #fff;
+}
+
+
+/* ==========================================================================
+  	Contact Us
+   ========================================================================== */
+
+#contact {
+	background: #fff url(../images/bg-map.png) left 190px no-repeat;
+	padding: 50px 0;
+}
+
+.contact-info {
+	margin-bottom: 5px;
+}
+
+.contact-info h4 {
+	color: #666;
+}
+
+.contact-info i {
+	margin-right: 5px;
+}
+
+.contact-info address,
+.contact-info p {
+	color: #666;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+#contact .social-links {
+	display: block;
+	list-style: none;
+	overflow: hidden;
+	padding: 35px 0;
+}
+
+#contact .social-links li {
+	float: left;
+	margin-right: 10px;
+}
+
+.social-links li a {
+	background: #DDA924;
+	border-radius: 30%;
+	color: #fff;
+	display: block;
+	font-size: 25px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.twitter a:hover {
+	background: #55acee;
+}
+
+.facebook a:hover {
+	background: #3b5998;
+}
+
+.gplus a:hover {
+	background: #dd4b39;
+}
+
+.linkedin a:hover {
+	background: #31516a;
+}
+
+#contact-form {
+	background: #fafafa;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	padding: 50px;
+}
+
+#contact-form input {
+	color: #333;
+	font-size: 16px;
+}
+
+#contact-form .text-area {
+	color: #333;
+	margin-bottom: 15px;
+}
+
+#contact-form textarea {
+	font-size: 16px;
+}
+
+.btn-default {
+	background: #eee;
+	color: #777;
+}
+
+
+/* ==========================================================================
+  	Footer
+   ========================================================================== */
+
+footer {
+	background: #333;
+	color: #ccc;
+	padding: 25px 0 15px 0;
+}
+
+footer a {
+	color: #DDA924;
+}
+
+footer a:hover {
+	color: #ddb948;
+	text-decoration: none;
+}
